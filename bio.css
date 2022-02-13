@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+* {
+    font-family: 'Nunito', sans-serif;
+    /* text-decoration: none; */
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('4853433.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+.header img {
+    width: 13vw;
+    height: 13vw;
+    border-radius: 500px;
+    object-fit: cover;
+    background-color: black;
+    /* object-position: 0px ;  */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
+    display: block;
+    transition: 500ms;
+}
+
+.header img:hover{
+    cursor: pointer;
+    transition: 500ms;
+    transform: scale(1.1);
+}
+
+.header {
+    /* background-color: black; */
+    /* align-items: center; */
+    
+} 
+
+th, td{
+    padding-right: 7vw;
+    vertical-align: top;
+    font-size: 1vw;
+    /* background-color: bisque; */
+}
+
+td,th{
+    display: flex;
+}
+
+
+
+/* tr{
+    padding-bottom: vh;
+} */
+
+.judul{
+    font-size: 2vw;
+    font-weight: 900;
+    margin-bottom: 1vw;
+}
+
+.card{
+    /* margin-bottom: 50px; */
+    width:35vw;
+    padding: 1.5vw;
+    border-radius: 1.5vw;
+}
+
+.isi_2 li{
+    margin-left: 1vw;
+    list-style-type: disc;
+    font-size: 1vw;
+}
+
+.isi{
+    display: flex;
+    gap: 1.5vw;
+    margin-left: 7vw;
+    margin-right:7vw;
+    margin-top: 5vh;
+    margin-bottom:2.5vh;
+    line-height: 1.7;
+    
+}
+
+.first {
+    background-color: green;
+    transition: 500ms;
+    color: green;
+}
+
+.first:hover {
+    cursor: pointer;
+    transition: 500ms;
+    background-color: aquamarine;
+    box-shadow: 10px 10px green;
+}
+
+.bebas{
+    position:absolute;
+   left:7vw;
+    top: 18vw;
+    
+    padding: 31vh 12vw 31vh 12vw;
+    font-size: 3vw;
+    color: black;
+    opacity: 100%;
+    transition: 500ms;
+    /* background-color: antiquewhite; */
+    font-weight: 900;
+    color: white;
+    /* opacity: 50%;; */
+}
+
+.bebas:hover{
+    transition: 500ms;
+    opacity: 0%;
+}
+
+
+.second{
+    color: brown;
+    background-color: brown;
+    width: 20vw;
+    font-size: 1vw;
+    transition: 500ms;
+}
+
+.second:hover{
+    cursor: pointer;
+    background-color: burlywood;
+    transition: 500ms;
+    box-shadow: 10px 10px brown;
+}
+
+.third{
+    background-color: blueviolet;
+    color: blueviolet;
+    width: 25vw;
+    transition: 500ms;
+}
+.third:hover{
+    cursor: pointer;
+    background-color: pink;
+    transition: 500ms;
+    box-shadow: 10px 10px blueviolet;
+}
+
+
+.bebas_2{
+    top: 18vw;
+    left:43.6vw;
+    position: absolute;
+    padding : 31vh 3vw 31vh 3vw;
+    font-weight: 900;
+    color: white;
+    font-size: 3vw;
+    transition: 500ms;
+    /* opacity: 50%; */
+    /* background-color: aqua; */
+}
+
+.bebas_2:hover{
+    opacity: 0%;
+    transition: 500ms;
+}
+
+.bebas_3{
+    top: 18.5vw;
+    left:66.4vw;
+    position: absolute;
+    padding : 31vh 1vw 31vh 1vw;
+    font-weight: 900;
+    color: white;
+    font-size: 2.4vw;
+    transition: 500ms;
+    /* opacity: 50%; */
+    /* background-color: aqua; */
+}
+
+.bebas_3:hover{
+    opacity: 0%;
+    transition: 500ms;
+}
+
+@media screen and (max-width: 620px) {
+    .isi{
+        display:inline;
+    }
+
+    .card{
+        width: 100%;
+        height: 100%;
+        margin-bottom: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .isi_2 li{
+        list-style-type: none;
+    }
+
+    .bebas{
+        top: 20vh;
+        left:5vw;
+        padding : 75px 200px 75px 200px;
+        /* background-color: aqua; */
+    }
+
+    .bebas_2{
+        top: 47vh;
+        left:2.5vw;
+        padding : 50px 200px 50px 200px;
+        /* background-color: aqua; */
+    }
+
+    .bebas_3{
+        top: 67vh;
+        left:5vw;
+        padding : 30px 150px 30px 150px;
+        /* background-color: aqua; */
+        width: 150px;
+    }
+
+    
+}
